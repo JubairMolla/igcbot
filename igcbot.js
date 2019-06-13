@@ -13,13 +13,7 @@ bot.on('message', message =>{
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "bang" && message.channel.id === "397024701894885380"){
                 message.channel.send('IGC BOOM!!!!!') // Sends a message to the channel, with the content
-            }
-            else{
-                message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
-            }
-        }
 
-        }
     }
 });
 
