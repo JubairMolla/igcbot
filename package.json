@@ -1,0 +1,13 @@
+{
+    "name": "igc-bot",
+    "version": "1.0.0",
+    "description": "This is a simple test and experiment bot",
+    "main": "igc-bot.js",
+    "author": "JubairMolla",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+	"discord.js" : "11.2.1"
+	}
+}
