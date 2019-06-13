@@ -12,7 +12,7 @@ bot.on('message', message =>{
     if(message.author.id != "588762963951878144" && message.channel.id === "397024701894885380"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "bang" && message.channel.id === "397024701894885380"){
-                message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
+                message.channel.send('IGC BOOM!!!!!') // Sends a message to the channel, with the content
             }
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
